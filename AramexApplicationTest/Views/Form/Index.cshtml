@@ -1,0 +1,33 @@
+﻿@model AramexApplicationTest.ViewModels.FormViewModel
+
+@{
+    ViewBag.Title = "Form Submission Test Page";
+}
+
+@section scripts{
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+<div class="row">
+    <div class="col-sm-12">
+        <h1>Form Submission &amp; Validation Test</h1>
+    </div>
+</div>
+
+@using (Html.BeginForm())
+{
+    <div class="row">
+        <div class="col-md-4">
+            @Html.LabelFor(m => m.FirstName)
+            @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.FirstName)
+        </div>
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
+        </div>
+        <div class="col-sm-12">
+            <button type="submit" class="btn btn-primary">SEND</button>
+        </div>
+    </div>
+}
