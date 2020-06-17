@@ -12,8 +12,8 @@ namespace AramexApplicationTest.ViewModels
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }
-        public int PetId { get; set; }
-        public int CityId { get; set; }
+        public int? PetId { get; set; }
+        public int? CityId { get; set; }
         public List<Pet> Pets => PetService.GetPets();
         public List<City> Cities => CityService.GetCities();
     }
