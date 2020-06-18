@@ -16,6 +16,13 @@
     white-space: normal;
 }
 
+#home-heading{
+    padding:15px 0px 25px;
+    display:block;
+    border-bottom:1px solid #808080;
+    margin-bottom:20px;
+}
+
 img{
     max-width:100%;
     margin:20px 0px;

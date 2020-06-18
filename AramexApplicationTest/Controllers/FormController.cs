@@ -11,7 +11,7 @@ namespace AramexApplicationTest.Controllers
     {
         /// <summary>
         /// YOU SHOULD NOT NEED TO CHANGE THIS ACTION METHOD TO COMPLETE THIS TEST
-        /// CREATE A NEW ACTION METHOD TO PROCESS THE FORM WHEN IT IS POSTED TO THE CONTROLLER
+        /// CREATE ONE NEW ACTION METHOD TO PROCESS THE FORM WHEN IT IS POSTED TO THE CONTROLLER
         /// </summary>
         /// <returns></returns>
         [HttpGet]

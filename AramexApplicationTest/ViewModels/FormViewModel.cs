@@ -7,6 +7,9 @@ using System.Web;
 
 namespace AramexApplicationTest.ViewModels
 {
+    /// <summary>
+    /// IT'S OK TO EDIT THIS FILE
+    /// </summary>
     public class FormViewModel
     {
         public string FirstName { get; set; }
